@@ -1,0 +1,73 @@
+body{ /*전체*/
+  margin:0;
+  background: #fffbf2;
+}
+
+#texturenphoto{ /*질감과 사진*/
+  border:1px solid red;
+}
+
+#top-bar{ /*메뉴바*/
+  position:fixed;
+  z-index:100;
+  border:1px solid green;
+  background:#fffbf2;
+  width:100%;
+  padding:15px;
+}
+#texturenphoto .texture{ /*질감*/
+  width:100%;
+  height:300px;
+}
+
+#texturenphoto .photo{ /*증명사진*/
+  width:124px;
+  height:166px;
+  position:absolute;
+  left:100px;
+  top:213px;
+}
+
+#texturenphoto h1{ /*한 줄 소개*/
+  font-family: 'Nanum Pen Script', cursive;
+  font-size:50px;
+  padding:0;
+  margin:0;
+  margin-left:20px;
+  position:absolute;
+  top:110px;
+}
+
+#top-bar h4{
+  font-size:33px;
+  padding:0;
+  margin:0;
+}
+
+#top-bar h4 span:nth-child(1){
+
+}
+
+#top-bar h4 span:nth-child(2){
+
+}
+
+#top-bar h4 span:nth-child(3){
+
+}
+
+#top-bar h4 span:nth-child(4){
+
+}
+
+#top-bar h4 span:nth-child(5){
+
+}
+
+#top-bar h4 span:nth-child(6){
+
+}
+
+#top-bar h4 span:nth-child(7){
+
+}
