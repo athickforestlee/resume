@@ -3,43 +3,18 @@ body{ /*전체*/
   background: #fffbf2;
 }
 
-#texturenphoto{ /*질감과 사진*/
-  border:1px solid red;
-}
-
 #top-bar{ /*메뉴바*/
   position:fixed;
   z-index:100;
-  border:1px solid green;
-  background:#fffbf2;
+  //border:1px solid green;
+  background:#f8bf3c;
   width:100%;
   padding:15px;
 }
-#texturenphoto .texture{ /*질감*/
-  width:100%;
-  height:300px;
-}
-
-#texturenphoto .photo{ /*증명사진*/
-  width:124px;
-  height:166px;
-  position:absolute;
-  left:100px;
-  top:213px;
-}
-
-#texturenphoto h1{ /*한 줄 소개*/
-  font-family: 'Nanum Pen Script', cursive;
-  font-size:50px;
-  padding:0;
-  margin:0;
-  margin-left:20px;
-  position:absolute;
-  top:110px;
-}
 
 #top-bar h4{
-  font-size:33px;
+  color:white;
+  text-shadow:-1px 0 #f8bf3c, 0 1px #f8bf3c, 1px 0 #f8bf3c, 0 -1px #f8bf3c;
   padding:0;
   margin:0;
 }
@@ -70,4 +45,97 @@ body{ /*전체*/
 
 #top-bar h4 span:nth-child(7){
 
+}
+
+#texturenphoto{ /*질감과 사진*/
+  //border:1px solid red;
+}
+
+#texturenphoto .texture{ /*질감*/
+  width:100%;
+  height:300px;
+}
+
+#texturenphoto .photo{ /*증명사진*/
+  width:124px;
+  height:166px;
+  position:absolute;
+  left:100px;
+  top:213px;
+}
+
+#texturenphoto h1{ /*한 줄 소개*/
+  font-family: 'Nanum Pen Script', cursive;
+  font-size:50px;
+  padding:0;
+  margin:0;
+  margin-left:165px;
+  position:absolute;
+  top:110px;
+}
+
+.blankspace{
+  margin-bottom:222px;
+}
+
+.edge{
+  border:1px solid red;
+}
+
+.contents{
+  margin-left:100px;
+  margin-right:100px;
+  margin-bottom:100px;
+  border:1px solid brown;
+}
+
+.aboutme{
+
+}
+
+.aboutme h1{
+  color:blue;
+  padding-bottom:15px;
+  border-bottom:1px solid gray;
+}
+
+.aboutme .introduce{
+  padding-left:25px;
+  display:grid;
+  grid-template-columns:350px 1fr;
+  border:1px solid gray;
+}
+
+.aboutme .contact{
+  padding-left:25px;
+  display:grid;
+  grid-template-columns:350px 1fr;
+  border:1px solid gray;
+  margin-top:10px;
+}
+
+.skills{
+  margin-top:80px;
+}
+
+.skills h1{
+  color:indigo;
+  padding-bottom:15px;
+  border-bottom:1px solid gray;
+}
+
+.skills .frontend{
+  padding-left:25px;
+  display:grid;
+  grid-template-columns:350px 1fr;
+  border:1px solid gray;
+  margin-top:10px;
+}
+
+.skills .windowsapp{
+  padding-left:25px;
+  display:grid;
+  grid-template-columns:350px 1fr;
+  border:1px solid gray;
+  margin-top:10px;
 }
