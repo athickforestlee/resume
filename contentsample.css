@@ -1,0 +1,32 @@
+.대제목클래스명{
+  margin-top:80px;
+}
+
+.대제목클래스명 .대제목클래스명img{
+  width:30px;
+  height:30px;
+}
+
+.대제목클래스명 h1{
+  color:green;
+  padding-bottom:15px;
+  border-bottom:1px solid gray;
+}
+
+.대제목클래스명 .소제목_1클래스명{
+  padding-left:25px;
+  display:grid;
+  grid-template-columns:350px 1fr;
+  border:1px solid gray;
+  margin-top:10px;
+}
+
+.대제목클래스명 .소제목_2클래스명{
+  padding-left:25px;
+  display:grid;
+  grid-template-columns:350px 1fr;
+  border:1px solid gray;
+  margin-top:10px;
+}
+
+/*--------------------------------이상 CSS 샘플--------------------------------*/
