@@ -65,7 +65,7 @@ body{ /*전체*/
 }
 
 #texturenphoto h1{ /*한 줄 소개*/
-  font-family: 'Nanum Pen Script', cursive;
+  font-family: 'Nanum Pen Script', cursive; /*나눔 손글씨 펜 폰트*/
   font-size:50px;
   padding:0;
   margin:0;
@@ -89,8 +89,19 @@ body{ /*전체*/
   border:1px solid brown;
 }
 
+.contents ul{
+  margin-top:30px;
+  margin-bottom:30px;
+  line-height:30px;
+}
+
 .aboutme{
 
+}
+
+.aboutme .meimg{
+  width:30px;
+  height:30px;
 }
 
 .aboutme h1{
@@ -118,6 +129,11 @@ body{ /*전체*/
   margin-top:80px;
 }
 
+.skills .skillimg{
+  width:30px;
+  height:30px;
+}
+
 .skills h1{
   color:indigo;
   padding-bottom:15px;
@@ -139,3 +155,150 @@ body{ /*전체*/
   border:1px solid gray;
   margin-top:10px;
 }
+
+.skills .collabtool{
+  padding-left:25px;
+  display:grid;
+  grid-template-columns:350px 1fr;
+  border:1px solid gray;
+  margin-top:10px;
+}
+
+.work{
+  margin-top:80px;
+}
+
+.work .workimg{
+  width:30px;
+  height:30px;
+}
+
+.work h1{
+  color:green;
+  padding-bottom:15px;
+  border-bottom:1px solid gray;
+}
+
+.work .nia{
+  padding-left:25px;
+  display:grid;
+  grid-template-columns:350px 1fr;
+  border:1px solid gray;
+  margin-top:10px;
+}
+
+.work .bimatrix{
+  padding-left:25px;
+  display:grid;
+  grid-template-columns:350px 1fr;
+  border:1px solid gray;
+  margin-top:10px;
+}
+
+.personal{
+  margin-top:80px;
+}
+
+.personal .personalimg{
+  width:30px;
+  height:30px;
+}
+
+.personal h1{
+  color:green;
+  padding-bottom:15px;
+  border-bottom:1px solid gray;
+}
+
+.personal .project_1{
+  padding-left:25px;
+  display:grid;
+  grid-template-columns:350px 1fr;
+  border:1px solid gray;
+  margin-top:10px;
+}
+
+.personal .project_2{
+  padding-left:25px;
+  display:grid;
+  grid-template-columns:350px 1fr;
+  border:1px solid gray;
+  margin-top:10px;
+}
+
+.edu{
+  margin-top:80px;
+}
+
+.edu .eduimg{
+  width:30px;
+  height:30px;
+}
+
+.edu h1{
+  color:green;
+  padding-bottom:15px;
+  border-bottom:1px solid gray;
+}
+
+.edu .edu_1{
+  padding-left:25px;
+  display:grid;
+  grid-template-columns:350px 1fr;
+  border:1px solid gray;
+  margin-top:10px;
+}
+
+.edu .edu_2{
+  padding-left:25px;
+  display:grid;
+  grid-template-columns:350px 1fr;
+  border:1px solid gray;
+  margin-top:10px;
+}
+
+.edu .edu_3{
+  padding-left:25px;
+  display:grid;
+  grid-template-columns:350px 1fr;
+  border:1px solid gray;
+  margin-top:10px;
+}
+
+.certificate{
+  margin-top:80px;
+}
+
+.certificate .certificateimg{
+  width:30px;
+  height:30px;
+}
+
+.certificate h1{
+  color:green;
+  padding-bottom:15px;
+  border-bottom:1px solid gray;
+}
+
+.certificate .certificate_1{
+  padding-left:25px;
+  display:grid;
+  grid-template-columns:350px 1fr;
+  border:1px solid gray;
+  margin-top:10px;
+}
+
+.certificate .certificate_2{
+  padding-left:25px;
+  display:grid;
+  grid-template-columns:350px 1fr;
+  border:1px solid gray;
+  margin-top:10px;
+}
+
+.certificate .certificate_3{
+  padding-left:25px;
+  display:grid;
+  grid-template-columns:350px 1fr;
+  border:1px solid gray;
+  margin-top:10px;
