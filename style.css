@@ -6,7 +6,7 @@ body{ /*전체*/
 #top-bar{ /*메뉴바*/
   position:fixed;
   z-index:100;
-  //border:1px solid green;
+  //border:1px solid blue;
   background:#f8bf3c;
   width:100%;
   padding:15px;
@@ -17,6 +17,7 @@ body{ /*전체*/
   text-shadow:-1px 0 #f8bf3c, 0 1px #f8bf3c, 1px 0 #f8bf3c, 0 -1px #f8bf3c;
   padding:0;
   margin:0;
+  text-align:center;
 }
 
 #top-bar h4 span:nth-child(1){
@@ -47,6 +48,19 @@ body{ /*전체*/
 
 }
 
+#top-bar h4 span a:link{
+  color:black;
+  text-decoration:none;
+}
+
+#top-bar h4 span a:visited{
+  color:black;
+}
+
+#top-bar h4 span a:hover{
+  color:gray;
+}
+
 #texturenphoto{ /*질감과 사진*/
   //border:1px solid red;
 }
@@ -75,18 +89,18 @@ body{ /*전체*/
 }
 
 .blankspace{
-  margin-bottom:222px;
+  margin-bottom:157px;
 }
 
 .edge{
-  border:1px solid red;
+  //border:1px solid red;
 }
 
 .contents{
   margin-left:100px;
   margin-right:100px;
   margin-bottom:100px;
-  border:1px solid brown;
+  //border:1px solid brown;
 }
 
 .contents ul{
@@ -95,210 +109,228 @@ body{ /*전체*/
   line-height:30px;
 }
 
-.aboutme{
-
+#aboutme{
+  padding-top:30px;
 }
 
-.aboutme .meimg{
+#aboutme .meimg{
   width:30px;
   height:30px;
 }
 
-.aboutme h1{
+#aboutme h1{
   color:blue;
   padding-bottom:15px;
   border-bottom:1px solid gray;
 }
 
-.aboutme .introduce{
+#aboutme .introduce{
   padding-left:25px;
   display:grid;
   grid-template-columns:350px 1fr;
-  border:1px solid gray;
+  //border:1px solid gray;
 }
 
-.aboutme .contact{
+#aboutme .contact{
   padding-left:25px;
   display:grid;
   grid-template-columns:350px 1fr;
-  border:1px solid gray;
+  //border:1px solid gray;
   margin-top:10px;
 }
 
-.skills{
-  margin-top:80px;
+#aboutme .contact a:link{
+  color:black;
+  text-decoration: underline;
 }
 
-.skills .skillimg{
+#aboutme .contact a:visited{
+  color:black;
+}
+
+#aboutme .contact a:hover{
+  color:gray;
+}
+
+#skills{
+  margin-top:50px;
+  padding-top:30px;
+}
+
+#skills .skillimg{
   width:30px;
   height:30px;
 }
 
-.skills h1{
+#skills h1{
   color:indigo;
   padding-bottom:15px;
   border-bottom:1px solid gray;
 }
 
-.skills .frontend{
+#skills .frontend{
   padding-left:25px;
   display:grid;
   grid-template-columns:350px 1fr;
-  border:1px solid gray;
+  //border:1px solid gray;
   margin-top:10px;
 }
 
-.skills .windowsapp{
+#skills .windowsapp{
   padding-left:25px;
   display:grid;
   grid-template-columns:350px 1fr;
-  border:1px solid gray;
+  //border:1px solid gray;
   margin-top:10px;
 }
 
-.skills .collabtool{
+#skills .collabtool{
   padding-left:25px;
   display:grid;
   grid-template-columns:350px 1fr;
-  border:1px solid gray;
+  //border:1px solid gray;
   margin-top:10px;
 }
 
-.work{
-  margin-top:80px;
+#work{
+  margin-top:50px;
+  padding-top:30px;
 }
 
-.work .workimg{
+#work .workimg{
   width:30px;
   height:30px;
 }
 
-.work h1{
-  color:green;
+#work h1{
+  color:blue;
   padding-bottom:15px;
   border-bottom:1px solid gray;
 }
 
-.work .nia{
+#work .nia{
   padding-left:25px;
   display:grid;
   grid-template-columns:350px 1fr;
-  border:1px solid gray;
+  //border:1px solid gray;
   margin-top:10px;
 }
 
-.work .bimatrix{
+#work .bimatrix{
   padding-left:25px;
   display:grid;
   grid-template-columns:350px 1fr;
-  border:1px solid gray;
+  //border:1px solid gray;
   margin-top:10px;
 }
 
-.personal{
-  margin-top:80px;
+#personal{
+  margin-top:50px;
+  padding-top:30px;
 }
 
-.personal .personalimg{
+#personal .personalimg{
   width:30px;
   height:30px;
 }
 
-.personal h1{
-  color:green;
+#personal h1{
+  color:blue;
   padding-bottom:15px;
   border-bottom:1px solid gray;
 }
 
-.personal .project_1{
+#personal .project_1{
   padding-left:25px;
   display:grid;
   grid-template-columns:350px 1fr;
-  border:1px solid gray;
+  //border:1px solid gray;
   margin-top:10px;
 }
 
-.personal .project_2{
+#personal .project_2{
   padding-left:25px;
   display:grid;
   grid-template-columns:350px 1fr;
-  border:1px solid gray;
+  //border:1px solid gray;
   margin-top:10px;
 }
 
-.edu{
-  margin-top:80px;
+#edu{
+  margin-top:50px;
+  padding-top:30px;
 }
 
-.edu .eduimg{
+#edu .eduimg{
   width:30px;
   height:30px;
 }
 
-.edu h1{
-  color:green;
+#edu h1{
+  color:blue;
   padding-bottom:15px;
   border-bottom:1px solid gray;
 }
 
-.edu .edu_1{
+#edu .edu_1{
   padding-left:25px;
   display:grid;
   grid-template-columns:350px 1fr;
-  border:1px solid gray;
+  //border:1px solid gray;
   margin-top:10px;
 }
 
-.edu .edu_2{
+#edu .edu_2{
   padding-left:25px;
   display:grid;
   grid-template-columns:350px 1fr;
-  border:1px solid gray;
+  //border:1px solid gray;
   margin-top:10px;
 }
 
-.edu .edu_3{
+#edu .edu_3{
   padding-left:25px;
   display:grid;
   grid-template-columns:350px 1fr;
-  border:1px solid gray;
+  //border:1px solid gray;
   margin-top:10px;
 }
 
-.certificate{
-  margin-top:80px;
+#certificate{
+  margin-top:50px;
+  padding-top:30px;
 }
 
-.certificate .certificateimg{
+#certificate .certificateimg{
   width:30px;
   height:30px;
 }
 
-.certificate h1{
-  color:green;
+#certificate h1{
+  color:blue;
   padding-bottom:15px;
   border-bottom:1px solid gray;
 }
 
-.certificate .certificate_1{
+#certificate .certificate_1{
   padding-left:25px;
   display:grid;
   grid-template-columns:350px 1fr;
-  border:1px solid gray;
+  //border:1px solid gray;
   margin-top:10px;
 }
 
-.certificate .certificate_2{
+#certificate .certificate_2{
   padding-left:25px;
   display:grid;
   grid-template-columns:350px 1fr;
-  border:1px solid gray;
+  //border:1px solid gray;
   margin-top:10px;
 }
 
-.certificate .certificate_3{
+#certificate .certificate_3{
   padding-left:25px;
   display:grid;
   grid-template-columns:350px 1fr;
-  border:1px solid gray;
+  //border:1px solid gray;
   margin-top:10px;
