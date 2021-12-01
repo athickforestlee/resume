@@ -248,6 +248,20 @@ body{ /*전체*/
   margin-top:10px;
 }
 
+#personal .project_1 a:link{
+  font-weight:bold;
+  color:black;
+  text-decoration:underline;
+}
+
+#personal .project_1 a:visited{
+  color:black;
+}
+
+#personal .project_1 a:hover{
+  color:gray;
+}
+
 #personal .project_2{
   padding-left:25px;
   display:grid;
