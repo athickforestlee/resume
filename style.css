@@ -270,6 +270,20 @@ body{ /*전체*/
   margin-top:10px;
 }
 
+#personal .project_2 a:link{
+  font-weight:bold;
+  color:black;
+  text-decoration:underline;
+}
+
+#personal .project_2 a:visited{
+  color:black;
+}
+
+#personal .project_2 a:hover{
+  color:gray;
+}
+
 #edu{
   margin-top:50px;
   padding-top:30px;
