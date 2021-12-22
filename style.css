@@ -70,22 +70,23 @@ body{ /*전체*/
   height:300px;
 }
 
-#texturenphoto .photo{ /*증명사진*/
-  width:124px;
-  height:166px;
-  position:absolute;
-  left:100px;
-  top:213px;
-}
-
 #texturenphoto h1{ /*한 줄 소개*/
   font-family: 'Nanum Pen Script', cursive; /*나눔 손글씨 펜 폰트*/
   font-size:50px;
   padding:0;
   margin:0;
-  margin-left:165px;
-  position:absolute;
+  //margin-left:33%;
+  position:absolute; left:13%;
   top:110px;
+  white-space: nowrap;
+}
+
+#texturenphoto .photo{ /*증명사진*/
+  width:124px;
+  height:166px;
+  position:absolute; left:13%;
+  //left:550px;
+  top:213px;
 }
 
 .blankspace{
@@ -101,6 +102,7 @@ body{ /*전체*/
   margin-right:100px;
   margin-bottom:100px;
   //border:1px solid brown;
+  white-space: nowrap;
 }
 
 .contents ul{
